@@ -11,22 +11,22 @@ However, monitoring backend queue load, availability, and estimated wait times a
 
 The goal of this project is to build a centralized dashboard that:
 
-Tracks IBM Quantum backend queues
-Displays pending jobs
-Predicts wait times
-Monitors online/offline backend status
-Provides filtering, searching, charts, and live refresh
+- Tracks IBM Quantum backend queues
+- Displays pending jobs
+- Predicts wait times
+- Monitors online/offline backend status
+- Provides filtering, searching, charts, and live refresh
 --
 
 🎯 Project Objective
 
 The main objective of QBoard is to simplify quantum backend monitoring by providing:
 
-A real-time dashboard
-Queue analytics
-Backend performance insights
-Visual representations of backend load
-Faster backend selection for users
+- A real-time dashboard
+- Queue analytics
+- Backend performance insights
+- Visual representations of backend load
+- Faster backend selection for users
 --
 ⚙️ Workflow
 1. Data Fetching
@@ -40,30 +40,30 @@ If the API is unavailable, fallback simulated data is used.
 
 Fetched data is processed into:
 
-Backend name
-Pending jobs
-Online/offline status
-Predicted wait time
+- Backend name
+- Pending jobs
+- Online/offline status
+- Predicted wait time
 
 3. Visualization
 
 The processed data is displayed using:
 
-Tables
-Charts
-Status badges
-Summary cards
+- Tables
+- Charts
+- Status badges
+- Summary cards
 
 4. User Interaction
 
 Users can:
 
-Search backends
-Sort queues
-Filter online/offline systems
-Change refresh intervals
-Pause/resume live updates
-Download CSV reports
+- Search backends
+- Sort queues
+- Filter online/offline systems
+- Change refresh intervals
+- Pause/resume live updates
+- Download CSV reports
 
 🛠️ Tech Stack
 **Frontend**
@@ -146,10 +146,12 @@ Supports:
 Users can download backend statistics as CSV reports.
 
 ✅ Best Backend Recommendation
+
 Displays the backend with:
 
-Lowest predicted wait time
-Active online status
+- Lowest predicted wait time
+- Active online status
+
 🔄 Real-Time Update Logic
 
 The project uses a custom interval hook:
@@ -163,20 +165,22 @@ Chart Type	Purpose
 - Line Chart	Queue history over time
 
 **📈 Future Improvements**
-Real IBM Quantum live backend integration
-Authentication system
-Historical analytics
-Quantum job submission
-AI-based wait prediction
-Dark/Light theme toggle
-Backend health monitoring
+- Real IBM Quantum live backend integration
+- Authentication system
+- Historical analytics
+- Quantum job submission
+- AI-based wait prediction
+- Dark/Light theme toggle
+- Backend health monitoring
 
 **▶️ Installation & Setup**
 1. Clone Repository
 git clone <repo-url>
 cd qboard
+
 2. Install Dependencies
 npm install
+
 3. Start Development Server
 npm run dev
 🌐 API Endpoint
