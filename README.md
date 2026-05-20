@@ -83,39 +83,27 @@ API/Data
 IBM Quantum Services
 REST API Fetch
 --
-📂 Project Structure
-src/
-│
-├── App.jsx
-├── main.jsx
-├── LandingScreen.jsx
-│
-├── components/
-│
-├── styles/
-│
-└── assets/
---
+
 **Features Implemented**
 **✅ Dashboard Summary Cards**
 
 Displays:
 
-Total pending jobs
-Average predicted wait
-Online systems
-Offline systems
-Most busy backend
-Least busy backend
+- Total pending jobs
+- Average predicted wait
+- Online systems
+- Offline systems
+- Most busy backend
+- Least busy backend
 
 **✅ Backend Queue Monitoring**
 
 **Tracks:**
 
-Backend name
-Pending jobs
-Online/offline state
-Predicted wait time
+- Backend name
+- Pending jobs
+- Online/offline state
+- Predicted wait time
 
 ✅ Live Refresh System
 
@@ -127,38 +115,37 @@ Predicted wait time
 
 **Users can also:**
 
-Pause updates
-Resume updates
+- Pause updates
+- Resume updates
 
 **✅ Interactive Charts**
 
 **Supports:**
 
-Bar chart
-Pie chart
-Line chart
-Built using Chart.js.
+- Bar chart
+- Pie chart
+- Line chart
+- Built using Chart.js.
 
 **✅ Search & Filtering**
 
 Users can:
 
-Search backend names
-Filter online/offline systems
-Sort by queue size
+- Search backend names
+- Filter online/offline systems
+- Sort by queue size
 
 **✅ Pagination**
 
 Supports:
 
-Multiple pages
-Adjustable rows per page
-✅ CSV Export
+- Multiple pages
+- Adjustable rows per page
 
+✅ CSV Export
 Users can download backend statistics as CSV reports.
 
 ✅ Best Backend Recommendation
-
 Displays the backend with:
 
 Lowest predicted wait time
@@ -171,9 +158,9 @@ This periodically refreshes backend data automatically.
 
 **📊 Charts Used**
 Chart Type	Purpose
-Bar Chart	Compare pending jobs
-Pie Chart	Queue distribution
-Line Chart	Queue history over time
+- Bar Chart	Compare pending jobs
+- Pie Chart	Queue distribution
+- Line Chart	Queue history over time
 
 **📈 Future Improvements**
 Real IBM Quantum live backend integration
