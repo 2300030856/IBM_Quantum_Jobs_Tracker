@@ -28,6 +28,7 @@ The main objective of QBoard is to simplify quantum backend monitoring by provid
 - Visual representations of backend load
 - Faster backend selection for users
 --
+
 ⚙️ Workflow
 1. Data Fetching
 The frontend fetches backend/job data from the API endpoint:
@@ -71,17 +72,21 @@ React.js
 JavaScript 
 HTML5
 CSS3
+
 **Charts & Visualization**
 Chart.js
 React Icons
+
 **Backend**
 Python
 Pandas
 Qiskit
+
 **IBM Quantum Runtime API**
 API/Data
 IBM Quantum Services
 REST API Fetch
+
 --
 
 **Features Implemented**
