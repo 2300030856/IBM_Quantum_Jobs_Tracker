@@ -27,6 +27,7 @@ The main objective of QBoard is to simplify quantum backend monitoring by provid
 - Backend performance insights
 - Visual representations of backend load
 - Faster backend selection for users
+  
 --
 
 ⚙️ Workflow
