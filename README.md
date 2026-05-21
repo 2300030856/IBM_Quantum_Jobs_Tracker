@@ -16,7 +16,7 @@ The goal of this project is to build a centralized dashboard that:
 - Predicts wait times
 - Monitors online/offline backend status
 - Provides filtering, searching, charts, and live refresh
---
+---
 
 🎯 Project Objective
 
@@ -28,7 +28,7 @@ The main objective of QBoard is to simplify quantum backend monitoring by provid
 - Visual representations of backend load
 - Faster backend selection for users
   
---
+---
 
 ⚙️ Workflow
 1. Data Fetching
@@ -66,7 +66,7 @@ Users can:
 - Change refresh intervals
 - Pause/resume live updates
 - Download CSV reports
-
+---
 🛠️ Tech Stack
 **Frontend**
 React.js
@@ -88,7 +88,7 @@ API/Data
 IBM Quantum Services
 REST API Fetch
 
---
+---
 
 **Features Implemented**
 **✅ Dashboard Summary Cards**
@@ -163,13 +163,13 @@ Displays the backend with:
 The project uses a custom interval hook:
 useInterval(callback, delay)
 This periodically refreshes backend data automatically.
-
+---
 **📊 Charts Used**
 Chart Type	Purpose
 - Bar Chart	Compare pending jobs
 - Pie Chart	Queue distribution
 - Line Chart	Queue history over time
-
+---
 **📈 Future Improvements**
 - Real IBM Quantum live backend integration
 - Authentication system
@@ -178,7 +178,7 @@ Chart Type	Purpose
 - AI-based wait prediction
 - Dark/Light theme toggle
 - Backend health monitoring
-
+---
 **▶️ Installation & Setup**
 1. Clone Repository
 git clone <repo-url>
